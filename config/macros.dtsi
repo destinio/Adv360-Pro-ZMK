@@ -1,3 +1,9 @@
+macro_switch_app: macro_switch_app{
+compatible = "zmk,behavior-macro";
+label = "macro_switch_app";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_COMMAND>, <&kp TAB>;
+};
 macro_switch_win: macro_switch_win{
 compatible = "zmk,behavior-macro";
 label = "macro_switch_win";
