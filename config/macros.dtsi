@@ -2,7 +2,7 @@ macro_switch_app: macro_switch_app{
 compatible = "zmk,behavior-macro";
 label = "macro_switch_app";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_COMMAND(TAB)>;
+bindings = <&kp LG(TAB)>;
 };
 macro_saave_and_qiit: macro_saave_and_qiit{
 compatible = "zmk,behavior-macro";
