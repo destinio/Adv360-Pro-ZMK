@@ -2,7 +2,7 @@ macro_switch_win: macro_switch_win{
 compatible = "zmk,behavior-macro";
 label = "macro_switch_win";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_COMMAND>;
+bindings = <&kp LG(GRAVE)>;
 };
 macro_switch_app: macro_switch_app{
 compatible = "zmk,behavior-macro";
