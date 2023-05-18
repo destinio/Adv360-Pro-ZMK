@@ -2,7 +2,7 @@ macro_toggle_term: macro_toggle_term{
 compatible = "zmk,behavior-macro";
 label = "macro_toggle_term";
 #binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND(t)>;
+bindings = <&kp LG(T)>;
 };
 macro_vim: macro_vim{
 compatible = "zmk,behavior-macro";
