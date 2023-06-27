@@ -20,7 +20,7 @@ macro_window_2: macro_window_2{
 compatible = "zmk,behavior-macro";
 label = "macro_window_2";
 #binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND>;
+bindings = <&kp LG(LA(2))>;
 };
 macro_window_1: macro_window_1{
 compatible = "zmk,behavior-macro";
